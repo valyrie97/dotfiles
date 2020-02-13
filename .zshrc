@@ -1,5 +1,5 @@
-alias config='vim ~/.zshrc && source ~/.zshrc'
-alias vimrc='vim ~/.vimrc'
+alias config='vim ~/.zshrc && source ~/.zshrc && update'
+alias vimrc='vim ~/.vimrc && update'
 alias update='git add . && git commit -m \"automatic\ update\" --allow-empty && git push origin'
 alias la='ls -lah'
 
