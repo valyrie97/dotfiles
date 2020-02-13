@@ -1,5 +1,8 @@
+" === [BASIC STUFF] ===
 set nu
+syntax on
 
+" === [VUNDLE] ===
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -10,5 +13,8 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()
 filetype plugin indent on
 
+" === [MAPPINGS] ===
+map <S-w> :w<CR>
+map <S-q> :q<CR>
 
 
