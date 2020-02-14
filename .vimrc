@@ -10,6 +10,7 @@ call vundle#begin('.vundle_plugins')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
+Plugin 'itchyny/lightline.vim'
 
 call vundle#end()
 filetype plugin indent on
