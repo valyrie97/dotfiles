@@ -9,12 +9,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin('.vundle_plugins')
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
 
 " === [MAPPINGS] ===
-map <S-w> :w<CR>
-map <S-q> :q<CR>
+let mapleader = " "
+map <leader>w :w<CR>
+map <leader>q :q<CR>
 
 
