@@ -18,5 +18,5 @@ filetype plugin indent on
 let mapleader = " "
 map <S-w> :w<CR>
 map <S-q> :q<CR>
-
+map <S-e> :NERDTreeToggle<CR>
 
