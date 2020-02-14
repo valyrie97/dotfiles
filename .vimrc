@@ -16,7 +16,7 @@ filetype plugin indent on
 
 " === [MAPPINGS] ===
 let mapleader = " "
-map <S-w> :w<CR>
-map <S-q> :q<CR>
-map <S-e> :NERDTreeToggle<CR>
+map <silent> <S-w> :w<CR>
+map <silent> <S-q> :q<CR>
+map <silent> <S-e> :NERDTreeToggle<CR>
 
