@@ -4,3 +4,6 @@
 [submodule ".vim/pack/vim-javascript/start/vim-javascript"]
 	path = .vim/pack/vim-javascript/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule ".iterm/themes/dracula"]
+	path = .iterm/themes/dracula
+	url = https://github.com/dracula/iterm.git
