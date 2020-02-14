@@ -1,6 +1,6 @@
 alias config='(cd ~ && vim ~/.zshrc && source ~/.zshrc && update)'
 alias vimrc='(cd ~ && vim ~/.vimrc && update)'
-alias update='git add . > nul && git commit -m \"automatic\ update\" --allow-empty > nul && git push origin > nul'
+alias update='(git add . > nul && git commit -m \"automatic\ update\" --allow-empty > nul && git push origin > nul) > nul'
 alias dotfiles='vim .gitignore && update'
 alias la='ls -lah'
 
