@@ -11,6 +11,7 @@ call vundle#begin('.vundle_plugins')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'itchyny/lightline.vim'
+Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 filetype plugin indent on
@@ -23,3 +24,10 @@ map <silent> <S-e> :NERDTreeToggle<CR>
 
 " === [FORMATTING] ===
 set tabstop=2
+
+" === [THEME] ===
+set fillchars+=vert:\ 
+colorscheme dracula
+
+
+
