@@ -21,3 +21,5 @@ map <silent> <S-w> :w<CR>
 map <silent> <S-q> :q<CR>
 map <silent> <S-e> :NERDTreeToggle<CR>
 
+" === [FORMATTING] ===
+set tabstop=2
