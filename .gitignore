@@ -1,6 +1,7 @@
 *
 
 !.vim/**/*
+!.iterm/**/*
 !.vimrc
 !.zshrc
 !.gitignore
