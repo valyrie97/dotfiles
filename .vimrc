@@ -3,6 +3,9 @@ set nu
 syntax on
 set t_Co=256
 " set background=dark
+set termguicolors
+set scrolloff=10
+set mouse=a
 
 " === [VUNDLE] ===
 set nocompatible
@@ -24,6 +27,8 @@ map <silent> <S-w> :w<CR>
 map <silent> <S-q> :q<CR>
 map <silent> <S-e> :NERDTreeToggle<CR>
 map <silent> <leader>r :so ~/.vimrc<CR>
+map <silent> <leader><left> <C-w><left>
+map <silent> <leader><right> <C-w><right>
 
 " === [FORMATTING] ===
 set tabstop=2
@@ -33,7 +38,19 @@ set fillchars+=vert:\
 colorscheme dracula
 " highlight Normal ctermbg=NONE
 " highlight nonText ctermbg=NONE
+" hi Normal ctermbg=#282A36
 
 " === [LIGHTLINE] ===
 set laststatus=2
+let g:lightline = {
+\ 'colorscheme': 'one',
+\ }
+set noshowmode
+set ttimeoutlen=10
+
+
+
+
+
+
 
