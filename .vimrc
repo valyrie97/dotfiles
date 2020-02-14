@@ -16,7 +16,7 @@ filetype plugin indent on
 
 " === [MAPPINGS] ===
 let mapleader = " "
-map <leader>w :w<CR>
-map <leader>q :q<CR>
+map <S-w> :w<CR>
+map <S-q> :q<CR>
 
 
