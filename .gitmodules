@@ -1,6 +1,6 @@
 [submodule ".vim/bundle/Vundle.vim"]
 	path = .vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
-[submodule "/Users/valerie/.vim/pack/vim-javascript/start/vim-javascript"]
-	path = /Users/valerie/.vim/pack/vim-javascript/start/vim-javascript
+[submodule ".vim/pack/vim-javascript/start/vim-javascript"]
+	path = .vim/pack/vim-javascript/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
