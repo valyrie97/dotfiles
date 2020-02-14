@@ -29,6 +29,8 @@ map <silent> <S-e> :NERDTreeToggle<CR>
 map <silent> <leader>r :so ~/.vimrc<CR>
 map <silent> <leader><left> <C-w><left>
 map <silent> <leader><right> <C-w><right>
+map <silent> <leader><up> <C-w><up>
+map <silent> <leader><down> <C-w><down>
 map <silent> <leader>o :$<CR>o
 
 " === [FORMATTING] ===
@@ -37,10 +39,11 @@ set tabstop=2
 " === [THEME] ===
 set fillchars+=vert:\ 
 colorscheme dracula
-" highlight Normal ctermbg=NONE
-" highlight nonText ctermbg=NONE
-" hi Normal ctermbg=#282A36
 hi Normal ctermbg=233
+set cursorline
+hi CursorLine ctermbg=235
+hi CursorLineNR ctermfg=61 ctermbg=235
+hi LineNr ctermfg=235 ctermbg=235
 
 " === [LIGHTLINE] ===
 set laststatus=2
