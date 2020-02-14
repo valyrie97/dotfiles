@@ -39,6 +39,7 @@ colorscheme dracula
 " highlight Normal ctermbg=NONE
 " highlight nonText ctermbg=NONE
 " hi Normal ctermbg=#282A36
+hi Normal ctermbg=233
 
 " === [LIGHTLINE] ===
 set laststatus=2
