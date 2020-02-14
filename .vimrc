@@ -29,6 +29,7 @@ map <silent> <S-e> :NERDTreeToggle<CR>
 map <silent> <leader>r :so ~/.vimrc<CR>
 map <silent> <leader><left> <C-w><left>
 map <silent> <leader><right> <C-w><right>
+map <silent> <leader>o :$<CR>o
 
 " === [FORMATTING] ===
 set tabstop=2
