@@ -3,7 +3,7 @@ alias vimrc='(cd ~ && vim ~/.vimrc && update)'
 alias update='(git add . >/dev/null 2>&1) && (git commit -m \"automatic\ update\" --allow-empty >/dev/null 2>&1) && (git push origin >/dev/null 2>&1)'
 alias dotfiles='vim .gitignore && update'
 alias la='ls -lah'
-alias test='(git commit -m \"stuff\" >/dev/null) && echo did it'
+alias testtest='(git commit -m \"stuff\" >/dev/null) && echo did it'
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
