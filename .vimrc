@@ -11,7 +11,7 @@ set mouse=a
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin('.vundle_plugins')
+call vundle#begin('~/.vundle_plugins')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
