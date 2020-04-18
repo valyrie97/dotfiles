@@ -1,17 +1,17 @@
 " === [BASIC STUFF] ===
-set nu
-syntax on
-set t_Co=256
+set nu "line numbers
+syntax on "syntax highlighting
+set t_Co=256 "terminal color mode
 " set background=dark
-set termguicolors
-set scrolloff=10
-set mouse=a
+set termguicolors "allow us to use gui prefixed color names (i think)
+set scrolloff=10 "scroll padding on moving cursor
+set mouse=a "just turn on ouse interactions
 
 " === [VUNDLE] ===
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin('~/.vundle_plugins')
+set nocompatible "not
+filetype off "a
+set rtp+=~/.vim/bundle/Vundle.vim "clue
+call vundle#begin('~/.vundle_plugins') "start vundle with a folder
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
@@ -19,7 +19,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
-filetype plugin indent on
+"filetype plugin indent on
 
 " === [MAPPINGS] ===
 let mapleader = " "
