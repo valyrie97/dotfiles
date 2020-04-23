@@ -1,7 +1,7 @@
 alias config='vim ~/.zshrc && source ~/.zshrc && (cd ~ && update)'
 alias zshrc='config'
 alias vimrc='(cd ~ && vim ~/.vimrc && update)'
-alias update='(git add . >/dev/null 2>&1) && (git commit -m \"automatic\ update\" --allow-empty >/dev/null 2>&1) && (git push origin >/dev/null 2>&1)'
+alias update='(git add . >/dev/null 2>&1) && (git commit -m "automatic\ update" --allow-empty >/dev/null 2>&1) && (git push origin >/dev/null 2>&1)'
 alias dotfiles='vim .gitignore && update'
 alias la='ls -lah'
 alias graph='git log --all --decorate --oneline --graph'
