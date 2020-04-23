@@ -1,7 +1,7 @@
 alias config='vim ~/.zshrc && source ~/.zshrc && (cd ~ && update)'
 alias zshrc='config'
 alias vimrc='(cd ~ && vim ~/.vimrc && update)'
-alias sync='(git fetch && git pull && update)'
+alias sync='(echo Checking for dotfile updates... && git fetch >/dev/null 2>&1 && git pull >/dev/null 2>&1 && update)'
 alias update='(git add . >/dev/null 2>&1) && (git commit -m "automatic update" --allow-empty >/dev/null 2>&1) && (git push origin)'
 alias dotfiles='vim .gitignore && update'
 alias la='ls -lah'
