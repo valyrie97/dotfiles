@@ -1,0 +1,9 @@
+source ~/.aliases
+
+if grep -q "bash" <<< "$SHELL"; then
+	echo "we in bash";
+elif grep -q "zsh" <<< "$SHELL"; then
+	echo "we in zsh";
+else
+	echo "unknown shell $SHELL";
+fi
