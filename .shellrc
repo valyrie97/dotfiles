@@ -28,8 +28,6 @@ else echo "unknown shell $SHELL"; fi
 (
 	cd ~;
 	echo Checking for dotfile updates...;
-	git fetch 2>&1 >/nev/null;
+	git fetch 2>&1 >/dev/null;
 	(git pull 2>&1 | grep Updating && reload) || echo Youre all set!
-)
-
-echo this is a test!	
+)	
