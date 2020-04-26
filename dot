@@ -1,0 +1,2 @@
+#!/bin/env node
+console.log('config/zshrc, vimrc, dotfiles: gitignore')
