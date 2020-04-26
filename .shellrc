@@ -4,7 +4,7 @@ alias config='vim ~/.shellrc && reload && (cd ~ && update)'
 alias zshrc='config'
 alias vimrc='(cd ~ && vim ~/.vimrc && update)'
 alias sync='(cd ~ && echo Checking for dotfile updates... && git fetch >/dev/null 2>&1 && (git pull 2>&1 | grep Updating) && git log -n 1 | grep Date)'
-alias update='(git add . >/dev/null 2>&1) && (git commit -m "Update from $HOSTNAME") && (git push origin >/dev/null 2>&1) && (echo Pushed update to github)'
+alias update='(git add . >/dev/null 2>&1) && (git commit -m "Update from $HOSTNAME" >/dev/null 2>&1) && (git push origin >/dev/null 2>&1) && (echo Pushed update to github)'
 alias dotfiles='vim .gitignore && update'
 alias la='ls -lah'
 alias graph='git log --all --decorate --oneline --graph'
@@ -29,7 +29,7 @@ else echo "unknown shell $SHELL"; fi
 	cd ~;
 	echo Checking for dotfile updates...;
 	git fetch 2>&1 >/nev/null;
-	(git pull 2>&1 | grep Updating) || echo No updates
+	(git pull 2>&1 | grep Updating && reload) || echo No updates
 	echo ;
 	echo ;
 	git log -n 1 | grep Date;
