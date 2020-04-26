@@ -22,5 +22,3 @@ elif grep -q "zsh" <<< "$SHELL"; then
 	POWERLEVEL9K_LEFT_LINE_ELEMENTS=(dir vcs context newline virtualenv prompt_char);
 
 else echo "unknown shell $SHELL"; fi
-
-clear || cls
