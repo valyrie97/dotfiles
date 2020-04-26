@@ -30,4 +30,6 @@ else echo "unknown shell $SHELL"; fi
 	echo Checking for dotfile updates...;
 	git fetch 2>&1 >/nev/null;
 	(git pull 2>&1 | grep Updating && reload) || echo Youre all set!
-)	
+)
+
+echo this is a test!	
