@@ -1,5 +1,14 @@
 source ~/.aliases
 
+alias config='vim ~/.zshrc && source ~/.zshrc && (cd ~ && update)'
+alias zshrc='config'
+alias vimrc='(cd ~ && vim ~/.vimrc && update)'
+alias sync='(echo Checking for dotfile updates... && git fetch >/dev/null 2>&1 && git pull >/dev/null 2>&1 && git log -n 1 | grep Date)'
+alias update='(git add . >/dev/null 2>&1) && (git commit -m "Update from $HOSTNAME" --allow-empty >/dev/null 2>&1) && (git push origin >/dev/null 2>&1) && (echo Pushed update to github)'
+alias dotfiles='vim .gitignore && update'
+alias la='ls -lah'
+alias graph='git log --all --decorate --oneline --graph'
+
 if grep -q "bash" <<< "$SHELL"; then
 	echo "we in bash";
 elif grep -q "zsh" <<< "$SHELL"; then
