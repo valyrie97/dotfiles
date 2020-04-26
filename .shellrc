@@ -1,6 +1,6 @@
 
-
-alias config='vim ~/.shellrc && echo "Reloading .shellrc..." && source ~/.shellrc && (cd ~ && update)'
+alias reload='echo "Reloading .shellrc..." && source ~/.shellrc'
+alias config='vim ~/.shellrc && reload && (cd ~ && update)'
 alias zshrc='config'
 alias vimrc='(cd ~ && vim ~/.vimrc && update)'
 alias sync='(echo Checking for dotfile updates... && git fetch >/dev/null 2>&1 && git pull >/dev/null 2>&1 && git log -n 1 | grep Date)'
