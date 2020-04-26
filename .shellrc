@@ -29,8 +29,5 @@ else echo "unknown shell $SHELL"; fi
 	cd ~;
 	echo Checking for dotfile updates...;
 	git fetch 2>&1 >/nev/null;
-	(git pull 2>&1 | grep Updating && reload) || echo No updates
-	echo ;
-	echo ;
-	git log -n 1 | grep Date;
+	(git pull 2>&1 | grep Updating && reload) || echo Youre all set!
 )	
