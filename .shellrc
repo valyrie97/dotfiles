@@ -12,6 +12,7 @@ alias graph='git log --all --decorate --oneline --graph'
 # === [WINDOWS] ===
 if grep -q "bash" <<< "$SHELL"; then
 	export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n> ';
+  source ~/.bashrc
 
 # === [MACOS] ===
 elif grep -q "zsh" <<< "$SHELL"; then
