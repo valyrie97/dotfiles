@@ -5,7 +5,8 @@ set t_Co=256 "terminal color mode
 " set background=dark
 set termguicolors "allow us to use gui prefixed color names (i think)
 set scrolloff=10 "scroll padding on moving cursor
-set mouse=a "just turn on ouse interactions
+set mouse=a "just turn on mouse interactions
+syntax enable "maybe doing it after will make a difference idk
 
 " === [VUNDLE] ===
 set nocompatible "not
