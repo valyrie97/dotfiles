@@ -10,7 +10,7 @@ set list "show whitespaces
 
 " === [VUNDLE] ===
 set nocompatible
-filetype off
+"filetype off
 "filetype plugin indent on
 
 " === [MAPPINGS] ===
@@ -29,12 +29,12 @@ map <silent> <leader>o :$<CR>o
 set tabstop=2
 
 " === [THEME] ===
-set fillchars+=vert:\ 
-hi Normal ctermbg=233
-set cursorline "show cursorline style
-hi CursorLine ctermbg=235
-hi CursorLineNR ctermfg=61 ctermbg=235
-hi LineNr ctermfg=235 ctermbg=235
+" set fillchars+=vert:\ 
+" hi Normal ctermbg=233
+" set cursorline "show cursorline style
+" hi CursorLine ctermbg=235
+" hi CursorLineNR ctermfg=61 ctermbg=235
+" hi LineNr ctermfg=235 ctermbg=235
 
 " === [LIGHTLINE] ===
 " set laststatus=2
