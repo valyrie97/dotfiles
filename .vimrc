@@ -31,7 +31,7 @@ set tabstop=2
 " === [THEME] ===
 set fillchars+=vert:\ 
 hi Normal ctermbg=233
-set cursorline
+set cursorline "show cursorline style
 hi CursorLine ctermbg=235
 hi CursorLineNR ctermfg=61 ctermbg=235
 hi LineNr ctermfg=235 ctermbg=235
@@ -41,10 +41,6 @@ hi LineNr ctermfg=235 ctermbg=235
 " set noshowmode
 " set noshowcmd
 set ttimeoutlen=10
-
 " === [EXTRA] ===
 
 syntax enable
-
-
-
