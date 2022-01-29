@@ -31,7 +31,7 @@ packadd! dracula
 
 
 colorscheme dracula
-
+let g:dracula_italic=0
 
 
 " === [THEME] ===
@@ -52,9 +52,8 @@ let g:currentmode={
 
 set statusline=
 set statusline+=%F
-" show current line number
 set statusline+=%l
-set statusline+=\ %{toupper(g:currentmode[mode()])}
+" set statusline+=\ %{toupper(g:currentmode[mode()])}
 " hi CursorLine ctermbg=235
 " hi CursorLineNR ctermfg=61 ctermbg=235
 " hi LineNr ctermfg=235 ctermbg=235
