@@ -30,7 +30,6 @@ set tabstop=2
 
 " === [THEME] ===
 set fillchars+=vert:\ 
-colorscheme dracula
 hi Normal ctermbg=233
 set cursorline
 hi CursorLine ctermbg=235
@@ -38,9 +37,9 @@ hi CursorLineNR ctermfg=61 ctermbg=235
 hi LineNr ctermfg=235 ctermbg=235
 
 " === [LIGHTLINE] ===
-set laststatus=2
-set noshowmode
-set noshowcmd
+" set laststatus=2
+" set noshowmode
+" set noshowcmd
 set ttimeoutlen=10
 
 " === [EXTRA] ===
