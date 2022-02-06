@@ -5,6 +5,7 @@ alias vimrc='(cd ~ && vim .vimrc && dotPush)'
 alias sync='(cd ~ && echo Checking for dotfile updates... && git fetch >/dev/null 2>&1 && (git pull 2>&1 | grep Updating) && git log -n 1 | grep Date)'
 [ -f "/Users/valerie/.ghcup/env" ] && source "/Users/valerie/.ghcup/env" # ghcup-env
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # rem -- // source ~/.p10k.zsh
 
 # automation
@@ -16,4 +17,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 )
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
