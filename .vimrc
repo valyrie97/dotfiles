@@ -53,6 +53,7 @@ let g:currentmode={
 set statusline=
 set statusline+=%F
 set statusline+=%l
+set laststatus=1
 " set statusline+=\ %{toupper(g:currentmode[mode()])}
 " hi CursorLine ctermbg=235
 " hi CursorLineNR ctermfg=61 ctermbg=235
